@@ -245,13 +245,24 @@
 
 
 #Container__main{
+    width: 80%;
+    height: 450px;
+    
   display: flex;
-  justify-content: center;
-/* background-color: brown; */
+ 
+  justify-content: space-between;
+ 
 
 
 }
 
+.container__cards{
+    display: flex;
+    max-height: 420px ;
+    margin-top: 10px;
+    padding-left: 10px;
+    
+}
 .card-body {
     height: auto;
 }
@@ -270,7 +281,7 @@ padding: 20px;
     justify-content: center;
     width: 400px;
     height: 900px;
-    background: orange ;
+   
 
 }
 
@@ -280,7 +291,7 @@ padding: 20px;
    
     margin-top: 0px;
     
-    background-color: aqua;
+   
 }
 
 .categorias__main a {
@@ -303,7 +314,6 @@ padding: 20px;
     height: 300px;
     /* background-color: blue; */
 }
-
 
 
 
