@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-danger" style="--bs-bg-opacity: .6;">
+            <div class="container-fluid d-flex mx-5">
+                <img class="logo" style="width: 90px;" src="img/LOGO CRESPIN FARHAT 4.png" alt="">
+                <h2 class="p-2">Bicicleteria Crespin Farhat</h2>
+                <!-- boton hamburguesa cuando se achica la pantalla -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- LISATAS: -->
+                <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-dark" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-dark" href="quien.html">¿Quiénes somos?</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-dark" href="contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="login.html"><button class="btn btn-danger">Login</button></a>
+                  </li>   
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Suscríbete
+                  </button>
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title-sus" id="staticBackdropLabel"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <section class="section-sus">
+                          <div class="row g-0">
+                            <div class="card-container-sus">
+                              <div class="card-body-suscribete">
+                                <h5 class="card-title-sus mb-4">SUSCRÍBETE</h5>
+                                <P>Crea tu cuenta en Bicicleteria Crespin Farhat</P>
+                                <div>
+                                  <input class="input-sus"
+                                    type="email"
+                                    placeholder="Correo electrónico"
+                                    name=""
+                                    id=""
+                                  />
+                                </div>
+                                <div>
+                                  <input class="input-sus" type="password" placeholder="Contraseña" name="" id="" />
+                                </div>
+                                <div class="container-question-sus">
+                                  <p> <b>Usa una contraseña con 8 carácteres o más. Puede ser cualquier combinación de letras, números y símbolos</b> </p>
+                                </div>
+                              <div>
+                                <div class="container-google-sus">
+                                  <a
+                                    href="https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dcreate-account-button&dsh=S1174787129%3A1658336401889979&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp"
+                                  >
+                                    <p>
+                                      <img
+                                        class="logo-google-sus"
+                                        src="https://www.edetsa.com/gestion/pwa/Content/Images/acceso_rapidoRecurso%201150.svg"
+                                        alt=""
+                                      />
+                                      Suscríbete con Google
+                                    </p>
+                                  </a>
+                                </div>
+                                <div class="container-facebook-sus">
+                                  <a
+                                    href="https://es-la.facebook.com/r.php?locale=es_LA&display=page"
+                                  >
+                                    <p>
+                                      <img
+                                        class="logo-facebook-sus"
+                                        src="https://www.edetsa.com/gestion/pwa/Content/Images/icon-facebook.svg"
+                                        alt=""
+                                      />
+                                      Suscríbete con Facebook
+                                    </p>
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="caja-registrate-sus">
+                                <div>
+                                  <label for="notificacion" class="notificar">Recibir notificaciones por email: SI</label>
+                                  <input type="radio" name="notificacion" id="notificacion"> 
+                                  <label for="notificacion" class="notificar">NO</label>
+                                  <input type="radio" name="notificacion" id="notificacion">
+                                </div>
+                                <p class="cuenta-cuenta-sus"><b>¿Ya tienes una cuenta?</b></p>
+                                <a class="registrate-sus" href="login.html"><b>Inicia sesión</b></a>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-danger">Enviar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+                <!-- FIN DE MODAL                 -->
+                    <ul class="dropdown-menu col-ms-12" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="#">Something else</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- NAV -->
+
+    <div class="slider-img">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/img hd1.jpg" class="d-block w-100
+                      " alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/img hd2.jpg" class="d-block w-100 " alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/img hd3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+   
+    <main id="Container__main" >
+      <!-- IMAGEN 1 -->
+      <div class="card" style="width: 18rem;">
+        <img src="img/91320-70_EPIC-HT-CARBON-29-FLORED-METWHTSIL-TARBLK_HERO-4 (1).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rodado 29</h5>
+          <p class="card-text">Breve descripcion</p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+      </div>
+
+      <!-- IMAGEN 2 -->
+      <div class="card" style="width: 18rem;">
+        <img src="img/91320-70_EPIC-HT-CARBON-29-FLORED-METWHTSIL-TARBLK_HERO-4 (1).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rodado 29</h5>
+          <p class="card-text">Breve descripcion</p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+      </div>
+
+      <!-- IMAGEN 3 -->
+      <div class="card" style="width: 18rem;">
+        <img src="img/91320-70_EPIC-HT-CARBON-29-FLORED-METWHTSIL-TARBLK_HERO-4 (1).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rodado 29</h5>
+          <p class="card-text">Breve descripcion</p>
+          <a href="#" class="btn btn-primary">Ver mas</a>
+        </div>
+      </div>
+
+    
+     
+     
+             <section>    
+                <div class="columna2__main">
+                    <div class="categorias__main ">
+                        <h4>Encontrá lo que buscas</h4>
+                        <a href="#">Todos los productos</a>
+                        <a href="#">Bicicletas</a>
+                        <a href="#">Indumentaria</a>
+
+                        <div class="espacio__publicidad">
+                           
+                           <div class="publicidad"> <img src="img/banner cybermonday.jpg" width="300px" height="380px" alt="">
+                           </div>
+                        </div>
+
+                    </div>
+                    
+                </div>   
+              </section>
+    </main> 
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container__prefooter">
+            <hr>
+            <div class="box__footer1">
+                <div class="logo">
+                    <img src="img/LOGO CRESPIN FARHAT 4.png" width="200px" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="box__redes">
+            <div class="box__redes2">
+                <ul class="sociales">
+                    <li> <a href="https://es-la.facebook.com/"> <img src="img/facebook.png" width="40px" alt=""> </a>
+                    </li>
+                    <li> <a href="https://www.instagram.com/"> <img src="img/instagram.png" width="40px" alt=""> </a>
+                    </li>
+                    <li> <a href="#"> <img src="img/whatsapp.png" width="40px" alt=""> </a> </li>
+                    <li> <a href="https://twitter.com/"> <img src="img/gorjeo.png" width="40px" alt=""> </a> </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="container__footer">
+            <div class="box__footer2">
+                <h4>INSTITUCIONAL</h4>
+                <a href="">Términos y Condiciones </a>
+                <a href="">Políticas de Privacidad</a>
+                <a href="">Política de Devolucion y Cambios</a>
+
+            </div>
+
+            <div class="box__footer3">
+                <h4>CONTACTO</h4>
+                <a href=""> <img src="img/whatsapp.png" width="25px" alt=""> Whastapp</a>
+                <a href=""> <img src="img/email.png" width="30px" alt=""> Mail</a>
+                <a href=""> <img src="img/ubicacion.png" width="28px" alt=""> Direccion</a>
+                <a href=""> <img src="img/reloj.png" width="28px" alt="">Horarios de atención:</a>
+                <p> Lun - Vi / 9:00hs - 13:00hs </p>
+                <p> 17:00hs - 21:00hs | Sábado 9:00hs - 13:00hs.</p>
+            </div>
+
+            <div class="box__footer4">
+                <p> <strong>Conseguí descuentos, envíos gratis, participa de sorteos,
+                        y sumá puntos canejeables</strong> </p>
+                <div class="input-group mb-3">
+                    <input type="email" class="form-control" placeholder="Ingresá tu email"
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">SUSCRIBIRSE</button>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <div class="box__copyright">
+
+            <p>Todos los derechos reservados. 2022 <b>Bicicleteria CF</b> </p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

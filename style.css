@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+  
+}
+
+
+.section-login{
+    margin: auto;
+    max-width: 800px;
+    height: auto;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 20px;
+}
+.img-card-login img{
+    width: 300px;
+    height: 430px;
+    float: right;
+}
+.card-title2{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.input-login{
+    width: 100%;
+    height: 48px;
+    border: solid gray 1px;
+    border-radius: 3px;
+    margin: 5px 0;
+    padding-left: 5px;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+.container-question{
+    width: 100% ;
+}
+.container-question a {
+    color: #5877f2;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+} 
+.container-next{
+    width: 100%;
+    display: inline-block;
+    text-align: end;
+}
+.button-next{
+    background-color: #f25858;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 0;
+    font-family: 'Nunito', sans-serif;
+}
+.container-google{
+    border-radius: 3px;
+    background-color: rgb(36, 109, 243);
+    width: 100%;
+    height: 50px;
+    padding: 0%;
+    margin-top: 1%;
+}
+.container-facebook{
+    border-radius: 3px;
+    background: #4364A8;
+    width: 100%;
+    height: 50px;
+    padding: 0%;
+    margin-top: 2%  
+}
+.container-google a{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 3.5rem;
+    text-align: center;
+}
+.container-facebook a{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 3.5rem;
+    text-align: center;
+}
+.logo-google{
+    width: 60px;
+    height: 44px;
+    background-color: white;
+    float: left;
+    margin-left: 3px;
+    margin-right: auto;
+    margin-top: 3px;
+}
+.logo-facebook{
+    width: 60px;
+    height: 44px;
+    background-color: rgb(40, 74, 128);
+    float: left;
+    margin-left: 3px;
+    margin-right: auto;
+    margin-top: 3px;
+}
+.caja-registrate{
+    width: 100%;
+    margin-top: 20px;
+}
+.cuenta-cuenta-login{
+    color: rgba(48, 48, 48, 0.87);
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    float: left;
+}
+.registrate{
+    color: #f25858;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    margin-left: 2%;        
+}
+.register-sus{
+    color: #f25858;
+    text-decoration: none;
+    margin-left: 5px;
+}
+/* LOGIN MODAL CONTRSEÑA */
+.modal-body-contraseña p{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+/* SUSCRIBETE MODAL */
+.section-sus{
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    font-family: 'Nunito', sans-serif;
+}
+.card-title-sus{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.input-sus{
+    width: 100%;
+    height: 48px;
+    border: solid gray 1px;
+    border-radius: 3px;
+    margin: 5px 0;
+    padding-left: 5px;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+.container-question-sus{
+    width: 100%;
+}
+.container-question-sus p {
+    color: #f25858;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+} 
+.container-google-sus{
+    border-radius: 3px;
+    background-color: rgb(36, 109, 243);
+    width: 100%;
+    height: 50px;
+    padding: 0%;
+    margin-top: 1%;
+}
+.container-facebook-sus{
+    border-radius: 3px;
+    background: #4364A8;
+    width: 100%;
+    height: 50px;
+    padding: 0%;
+    margin-top: 2%  
+}
+.container-google-sus a{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 3.5rem;
+    text-align: center;
+}
+.container-facebook-sus a{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 3.5rem;
+    text-align: center;
+}
+.logo-google-sus{
+    width: 60px;
+    height: 44px;
+    background-color: white;
+    float: left;
+    margin-left: 3px;
+    margin-right: auto;
+    margin-top: 3px;
+}
+.logo-facebook-sus{
+    width: 60px;
+    height: 44px;
+    background-color: rgb(40, 74, 128);
+    float: left;
+    margin-left: 3px;
+    margin-right: auto;
+    margin-top: 3px;
+}
+.caja-registrate-sus{
+    width: 100%;
+    margin-top: 20px;
+}
+.cuenta-cuenta-sus{
+    color: rgba(48, 48, 48, 0.87);
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    float: left;
+}
+.registrate-sus{
+    color: #f25858;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    margin-left: 2%;        
+}
+.notificar{
+    color: #f25858c0;;
+}
+
+
+/*AQUI EMPIEZA SLIDER*/
+.carousel-inner{
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+}
+
+/* AQUI TERMINA SLIDER */
+
+
+#Container__main{
+  display: flex;
+  justify-content: center;
+/* background-color: brown; */
+
+
+}
+
+.card-body {
+    height: auto;
+}
+
+
+.section{
+background: purple;
+width: 100%;
+height: 900px;
+padding: 20px;
+
+}
+
+.columna2__main{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 900px;
+    background: orange ;
+
+}
+
+.categorias__main {
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 0px;
+    
+    background-color: aqua;
+}
+
+.categorias__main a {
+    color: rgba(102, 92, 92, 0.788);
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.categorias__main h4 {
+    display: flex;
+    justify-content: center;
+    color:rgb(75, 72, 72); ;
+    margin-top: 40px;
+}
+
+.espacio__publicidad {
+    margin-top: 60px;
+    width: 300px;
+    height: 300px;
+    /* background-color: blue; */
+}
+
+
+
+
+
+
+/*footer*/
+
+
+footer {
+    
+    background-color: rgba(53, 68, 91, 0.937);
+}
+
+.box__footer1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.box__redes2 {
+    width: 100%;
+}
+
+.sociales {
+    text-align: center;
+}
+
+.sociales li {
+    display: inline-block;
+    margin: 25px;
+}
+
+.sociales a {
+    padding: 10px;
+
+
+}
+
+.container__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1400px;
+    margin-top: 10px;
+
+
+}
+
+.container__footer a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+
+}
+
+
+
+.box__footer2 a {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.box__footer3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    width: 100%;
+    height: 50px;
+    max-width: 400px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.box__copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+
+}
+
+
