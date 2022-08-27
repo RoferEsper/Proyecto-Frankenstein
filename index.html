@@ -17,126 +17,126 @@
 <body>
     <!-- HEADER -->
     <header class="header">
-        <nav class="navbar navbar-expand-lg bg-danger" style="--bs-bg-opacity: .6;">
-            <div class="container-fluid d-flex mx-5">
-                <img class="logo" style="width: 90px;" src="img/LOGO CRESPIN FARHAT 4.png" alt="">
-                <h2 class="p-2">Bicicleteria Crespin Farhat</h2>
-                <!-- boton hamburguesa cuando se achica la pantalla -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+      <nav class="navbar navbar-expand-lg"> 
+          <div class="container-fluid d-flex mx-4">
+              <img class="logo" style="width: 100px;" src="img/LOGO CRESPIN FARHAT 4.png" alt="">
+              <h2 class="p-2">Bicicleteria Crespin Farhat</h2>
+              <!-- boton hamburguesa cuando se achica la pantalla -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- LISATAS: -->
+              <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link text-dark m-1" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link text-dark m-1" href="quien.html">Sobre nosotros</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link text-dark m-1" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link btn btn-danger text-white m-1" href="login.html">Login</a>
+                </li>   
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Suscríbete
                 </button>
-                <!-- LISATAS: -->
-                <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item dropdown">
-                    <a class="nav-link text-dark" aria-current="page" href="index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link text-dark" href="quien.html">¿Quiénes somos?</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link text-dark" href="contacto.html">Contacto</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link" href="login.html"><button class="btn btn-danger">Login</button></a>
-                  </li>   
-                  <!-- Button trigger modal -->
-                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                    Suscríbete
-                  </button>
-                <!-- Modal -->
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title-sus" id="staticBackdropLabel"></h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        <section class="section-sus">
-                          <div class="row g-0">
-                            <div class="card-container-sus">
-                              <div class="card-body-suscribete">
-                                <h5 class="card-title-sus mb-4">SUSCRÍBETE</h5>
-                                <P>Crea tu cuenta en Bicicleteria Crespin Farhat</P>
-                                <div>
-                                  <input class="input-sus"
-                                    type="email"
-                                    placeholder="Correo electrónico"
-                                    name=""
-                                    id=""
-                                  />
-                                </div>
-                                <div>
-                                  <input class="input-sus" type="password" placeholder="Contraseña" name="" id="" />
-                                </div>
-                                <div class="container-question-sus">
-                                  <p> <b>Usa una contraseña con 8 carácteres o más. Puede ser cualquier combinación de letras, números y símbolos</b> </p>
-                                </div>
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title-sus" id="staticBackdropLabel"></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <section class="section-sus">
+                        <div class="row g-0">
+                          <div class="card-container-sus">
+                            <div class="card-body-suscribete">
+                              <h5 class="card-title-sus mb-4">SUSCRÍBETE</h5>
+                              <P>Crea tu cuenta en Bicicleteria Crespin Farhat</P>
                               <div>
-                                <div class="container-google-sus">
-                                  <a
-                                    href="https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dcreate-account-button&dsh=S1174787129%3A1658336401889979&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp"
-                                  >
-                                    <p>
-                                      <img
-                                        class="logo-google-sus"
-                                        src="https://www.edetsa.com/gestion/pwa/Content/Images/acceso_rapidoRecurso%201150.svg"
-                                        alt=""
-                                      />
-                                      Suscríbete con Google
-                                    </p>
-                                  </a>
-                                </div>
-                                <div class="container-facebook-sus">
-                                  <a
-                                    href="https://es-la.facebook.com/r.php?locale=es_LA&display=page"
-                                  >
-                                    <p>
-                                      <img
-                                        class="logo-facebook-sus"
-                                        src="https://www.edetsa.com/gestion/pwa/Content/Images/icon-facebook.svg"
-                                        alt=""
-                                      />
-                                      Suscríbete con Facebook
-                                    </p>
-                                  </a>
-                                </div>
+                                <input class="input-sus"
+                                  type="email"
+                                  placeholder="Correo electrónico"
+                                  name=""
+                                  id=""
+                                />
                               </div>
-                              <div class="caja-registrate-sus">
-                                <div>
-                                  <label for="notificacion" class="notificar">Recibir notificaciones por email: SI</label>
-                                  <input type="radio" name="notificacion" id="notificacion"> 
-                                  <label for="notificacion" class="notificar">NO</label>
-                                  <input type="radio" name="notificacion" id="notificacion">
-                                </div>
-                                <p class="cuenta-cuenta-sus"><b>¿Ya tienes una cuenta?</b></p>
-                                <a class="registrate-sus" href="login.html"><b>Inicia sesión</b></a>
+                              <div>
+                                <input class="input-sus" type="password" placeholder="Contraseña" name="" id="" />
+                              </div>
+                              <div class="container-question-sus">
+                                <p> <b>Usa una contraseña con 8 carácteres o más. Puede ser cualquier combinación de letras, números y símbolos</b> </p>
+                              </div>
+                            <div>
+                              <div class="container-google-sus">
+                                <a
+                                  href="https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dcreate-account-button&dsh=S1174787129%3A1658336401889979&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp"
+                                >
+                                  <p>
+                                    <img
+                                      class="logo-google-sus"
+                                      src="https://www.edetsa.com/gestion/pwa/Content/Images/acceso_rapidoRecurso%201150.svg"
+                                      alt=""
+                                    />
+                                    Suscríbete con Google
+                                  </p>
+                                </a>
+                              </div>
+                              <div class="container-facebook-sus">
+                                <a
+                                  href="https://es-la.facebook.com/r.php?locale=es_LA&display=page"
+                                >
+                                  <p>
+                                    <img
+                                      class="logo-facebook-sus"
+                                      src="https://www.edetsa.com/gestion/pwa/Content/Images/icon-facebook.svg"
+                                      alt=""
+                                    />
+                                    Suscríbete con Facebook
+                                  </p>
+                                </a>
+                              </div>
                             </div>
+                            <div class="caja-registrate-sus">
+                              <div>
+                                <label for="notificacion" class="notificar">Recibir notificaciones por email: SI</label>
+                                <input type="radio" name="notificacion" id="notificacion"> 
+                                <label for="notificacion" class="notificar">NO</label>
+                                <input type="radio" name="notificacion" id="notificacion">
+                              </div>
+                              <p class="cuenta-cuenta-sus"><b>¿Ya tienes una cuenta?</b></p>
+                              <a class="registrate-sus" href="login.html"><b>Inicia sesión</b></a>
                           </div>
                         </div>
-                      </section>
                       </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-danger">Enviar</button>
-                      </div>
+                    </section>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-danger">Enviar</button>
                     </div>
                   </div>
-                </div> 
-                <!-- FIN DE MODAL                 -->
-                    <ul class="dropdown-menu col-ms-12" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      <li><a class="dropdown-item" href="#">Something else</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
+                </div>
+              </div> 
+              <!-- FIN DE MODAL -->                
+                  <ul class="dropdown-menu col-ms-12" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">Something else</a></li>
+                  </ul>
+                </li>
+              </ul>
             </div>
-          </nav>
-    </header>
+          </div>
+        </nav>
+  </header>
 
     <!-- NAV -->
 
