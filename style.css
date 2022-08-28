@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
 }
+
  /* HEADER */
 .header{
     background-color: rgba(53, 68, 91, 0.801);
 }
 
 /* SOBRE NOSOTROS */
-/* QUIENES SOMOS */
 .card-title{
     text-align: center;
 }
@@ -186,6 +186,7 @@
     font-family: 'Nunito', sans-serif;
     text-align: center;
 }
+
 /* SUSCRIBETE MODAL */
 .section-sus{
     margin: auto;
@@ -295,157 +296,120 @@
     object-fit: contain;
 }
 
-/* AQUI TERMINA SLIDER */
 
-
-#Container__main{
-  display: flex;
-  justify-content: center;
-/* background-color: brown; */
-
-
+/* MAIN PRINCIPAL */
+#container-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* background-color: brown; */ 
 }
-
-.card-body {
+/* .card-body {
     height: auto;
-}
-
-
-.section{
-background: purple;
-width: 100%;
-height: 900px;
-padding: 20px;
-
-}
-
-.columna2__main{
+} */
+/* .section{
+    background: purple;
+    width: 100%;
+    height: 900px;
+    padding: 20px;
+} */
+/* .propaganda{
     display: flex;
     justify-content: center;
     width: 400px;
     height: 900px;
     background: orange ;
-
-}
-
-.categorias__main {
+} */
+.card-propaganda{
     display: flex;
     flex-direction: column;
-   
     margin-top: 0px;
-    
-    background-color: aqua;
+    border-radius: 5px;
+    background: rgba(128, 0, 128, 0.377);
 }
-
-.categorias__main a {
+.card-propaganda h4 {
+    display: flex;
+    justify-content: center;
+    color:rgb(75, 72, 72); ;
+    margin-top: 10px;
+}
+.card-propaganda a {
     color: rgba(102, 92, 92, 0.788);
     display:flex;
     justify-content: center;
     text-decoration: none;
 }
-
-.categorias__main h4 {
+.espacio-publicidad{
+    margin-top: 20px;
+    height: 330px;
     display: flex;
     justify-content: center;
-    color:rgb(75, 72, 72); ;
-    margin-top: 40px;
 }
-
-.espacio__publicidad {
-    margin-top: 60px;
-    width: 300px;
-    height: 300px;
-    /* background-color: blue; */
+@media (max-width: 976px){
+    .espacio-publicidad{
+        visibility: hidden;
+        height: 50px;
+    }
 }
 
 
 
-
-
-
-/*footer*/
-
-
-footer {
-    
+/*FOOTER*/
+footer {   
     background-color: rgba(53, 68, 91, 0.937);
 }
-
 .box__footer1 {
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 5px;
 }
-
 .box__redes2 {
     width: 100%;
 }
-
 .sociales {
     text-align: center;
 }
-
 .sociales li {
     display: inline-block;
     margin: 25px;
 }
-
 .sociales a {
     padding: 10px;
-
-
 }
-
 .container__footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     max-width: 1400px;
     margin-top: 10px;
-
-
 }
-
 .container__footer a {
     text-decoration: none;
     color: black;
     margin: 5px;
-
 }
-
-
-
 .box__footer2 a {
     display: flex;
     flex-direction: column;
-
 }
-
-
 .box__footer3 {
     display: flex;
     flex-direction: column;
 }
-
 .form {
     width: 100%;
     height: 50px;
     max-width: 400px;
     position: relative;
     overflow: hidden;
-
 }
-
-
 .box__copyright {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5px;
-
-
 }
 
 
