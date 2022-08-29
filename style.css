@@ -1,12 +1,14 @@
 *{
     margin: 0;
-    padding: 0;
-    
+    padding: 0;    
 }
 
  /* HEADER */
 .header{
     background-color: rgba(53, 68, 91, 0.801);
+}
+.header-hover:hover{
+    background-color:rgba(40, 74, 128, 0.26)
 }
 
 /* SOBRE NOSOTROS */
@@ -286,7 +288,7 @@
     margin-left: 2%;        
 }
 .notificar{
-    color: #f25858c0;;
+    color: #f25858c0;
 }
 
 
